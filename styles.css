@@ -1,7 +1,7 @@
 body {
   color: rgb(0,120,10);
   font-family: 'Poppins';
-  font-size: 22px;
+  font-size: 18px;
   margin: 10px;
 }
 h1 {
@@ -30,3 +30,22 @@ a:hover {
 ul {
   list-style: none;
 }
+button {
+    font-size: 20px;
+    border-width: 1.5px;
+    text-decoration: none;
+    border-style: solid;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  #mediaicons {
+    font-size: 40px;
+    color: green;
+  }
