@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#">Breathe</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,9 +28,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#">SIGN IN</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
-          </li>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-sm  my-2 my-sm-0" type="submit">  <a class="nav-link" href="#"><i class="fa fa-search"></i></a></button>
+            </form>
           <li class="nav-item">
             <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
           </li>
@@ -176,7 +177,7 @@
                 </div>
             </div>
 
-<hr height="10">
+<hr color="green" >
   <div>
    <button a href="./thoughts-page.html">Our Story</button>
    <button a href="./thoughts-page.html">Contact Us</button>
