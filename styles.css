@@ -52,11 +52,26 @@ button {
     color: white;
 
   }
+  #upperfooter {
+    padding: 30px;
+  }
   div.contrast {
-       background-color: rgb(10,120,40);
+       background-color: rgb(10,90,40);
        color: rgb(10,255,15);
        display: flex;
        justify-content: center;
        align-items: center;
        padding: 20px;
+  }
+  .fa-facebook {
+    color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
+  .fa-pinterest {
+    color: white;
+  }
+  .fa-instagram {
+    color: white;
   }
