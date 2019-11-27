@@ -41,11 +41,22 @@ button {
   .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
+     border-radius: 50%;
   }
+
   #mediaicons {
     font-size: 40px;
-    color: green;
+    color: white;
+
+  }
+  div.contrast {
+       background-color: rgb(10,120,40);
+       color: rgb(10,255,15);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
   }
