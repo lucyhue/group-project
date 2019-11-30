@@ -2,45 +2,130 @@
 <html>
   <head>
     <title>Breathe Product Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="./styles.css">
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   </head>
   <body>
-    <h1>Breathe</h1>
-      <ul>
-        <li><h2>PLANTS</h2></li>
-        <li><h2>POTS</h2></li>
-        <li><h2>THOUGHTS</h2></li>
-        <li><h2>SIGN IN</h2></li>
-        <li><h2><i class="fa fa-search"></i></h2></li>
-        <li><h2><i class="fa fa-shopping-cart"></i></h2></li>
-      </ul>
-    <div>
+    <nav class="navbar navbar-expand-md sticky-top">
+      <a class="navbar-brand" href="#">Breathe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+          PLANTS<span class="sr-only">(current)</span>
+            </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          POTS
+            </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          THOUGHTS
+            </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SIGN IN</a>
+          </li>
+        </ul>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-sm  my-2 my-sm-0" type="submit"><a class="nav-link" href="#"><i class="fa fa-search"></i></a></button>
+            </form>
+            <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+
+
+      </div>
+    </nav>
+
+
+
+    <div class="m-5">
+      <h4>Plants / Indoor Plants / Cactus - Spike</h4>
     </div>
-    <h3>Plants, Indoor Plants, Cactus</h3>
-    <div>
-      <img src="https://live.staticflickr.com/2343/2180574274_3c7ec9d0ca_z.jpg" alt="plant">
-        <h4>Cactus</h4>
-        <h4>£8</h4>
+
+    <div class="row m-5">
+      <div class="col-sm d-flex justify-content-center">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <a href="./product-page.html"><img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1568042845-Cactus_mix_yellow_2048x.jpg?crop=0.838xw:0.838xh;0.0705xw,0.122xh" alt="plant" width="100%"></a>
+            </div>
+            <div class="col-sm-12 d-flex justify-content-center">
+                <a href="./product-page.html"><img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1568042845-Cactus_mix_yellow_2048x.jpg?crop=0.838xw:0.838xh;0.0705xw,0.122xh" alt="plant" width="50%"></a>
+                <a href="./product-page.html"><img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1568042845-Cactus_mix_yellow_2048x.jpg?crop=0.838xw:0.838xh;0.0705xw,0.122xh" alt="plant" width="50%"></a>
+                <a href="./product-page.html"><img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1568042845-Cactus_mix_yellow_2048x.jpg?crop=0.838xw:0.838xh;0.0705xw,0.122xh" alt="plant" width="50%"></a>
+
+            </div>
+          </div>
+      </div>
+        <div class="col-sm d-flex justify-content-center">
+          <div class="row">
+            <div class="col-sm-12 d-flex justify-content-center">
+                <a href="./product-page.html"><br><h2>Cactus - Spike £8</h2></a>
+              </div>
+              <div class="col-sm-12 d-flex justify-content-center">
+              <p>Spike is an excellent addition to your workspace. As well as having a fun personality, Spike pretty much looks after himself, which is ideal for busy workers!<p>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm d-flex justify-content-center">
+              <div class="row">
+                <div class="col-sm-12 d-flex justify-content-center">
+                  <p>hello</p>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                <a href="./product-page.html">Cactus  £8</a>
+                </div>
+              </div>
+          </div>
+      </div>
     </div>
-    
-  <div>
-   <button a href="./thoughts-page.html">Our Story</button>
-   <button a href="./thoughts-page.html">Contact Us</button>
-   <button>FAQs</button>
-  </div>
-  <div id="mediaicons">
+
+
+
+
+
+  <div class="contrast d-flex justify-content-center" id="mediaicons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <a href="www.facebook.com" class="fa fa-facebook"></a>
       <a href="www.twitter.com" class="fa fa-twitter"></a>
       <a href="www.pinterest.com" class="fa fa-pinterest"></a>
       <a href="www.instagram.com" class="fa fa-instagram"></a>
   </div>
-  <div>
-      <p>&#169; HUELUND 2019</p>
-      <p>Sitemap</p>
-      <p>Privacy</p>
-      <p>T&Cs</p>
+
+  <div class="d-flex justify-content-around" id="upperfooter">
+    <h4>Our Story</h4>
+    <h4>Contact Us</h4>
+    <h4>FAQs</h4>
+  </div>
+
+  <div class="footer d-flex">
+    <div class="p-2 flex-grow-1 bd-highlight">&#169; HUELUND 2019</div>
+    <div class="p-2 bd-highlight">Sitemap</div>
+    <div class="p-2 bd-highlight">Privacy</div>
+    <div class="p-2 bd-highlight">T&Cs</div>
   </div>
 </body>
 </html>
