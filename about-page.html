@@ -3,22 +3,61 @@
 <head>
   <title>About page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="about_page.css">
+    <link rel="stylesheet" type="text/css" href="styles/global.css">
+    <link rel="stylesheet" type="text/css" href="styles/about_page.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
 </head>
+
 <body>
-  <h1>Breathe</h1>
-    <ul>
-      <li><h2>PLANTS</h2></li>
-      <li><h2>POTS</h2></li>
-      <li><h2>THOUGHTS</h2></li>
-      <li><h2>SIGN IN</h2></li>
-      <li><h2><i class="fa fa-search"></i></h2></li>
-      <li><h2><i class="fa fa-shopping-cart"></i></h2></li>
-    </ul>
-    <div class="row">
-      <div class="col-sm-8">
+  <nav class="navbar navbar-expand-md sticky-top">
+    <a class="navbar-brand" href="#">Breathe</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+        PLANTS<span class="sr-only">(current)</span>
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        POTS
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        THOUGHTS
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SIGN IN</a>
+        </li>
+      </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-sm  my-2 my-sm-0" type="submit"><a class="nav-link" href="#"><i class="fa fa-search"></i></a></button>
+          </form>
+          <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </nav>
+
         <h3>Our Story</h3>
         <p>
           Breathe began when founders, Lucy, Kim and Becca were trying to bring a little of the outdoors into their workspaces. To create a sense of calm and boost their oxygen levels!
@@ -51,6 +90,6 @@
 
       </div>
       <div class="col-sm-4">
-        <img id="vine_image" src="Vine.JPG" alt="Climbing_vine">
+        <img id="vine_image" src="images/Vine.JPG" alt="Climbing vine">
       </div>
     </div>
