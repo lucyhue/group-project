@@ -142,6 +142,22 @@ nav.navbar {
        display: inline;
    }
 
+.textcarousel {
+  color: black;
+  background-color: white;
+  font-size: 2em;
+  text-align: center;
+  bottom: 80%;
+  top: 0;
+}
+.textcarousel1 {
+  color: black;
+  background-color: white;
+  font-size: 2em;
+  text-align: center;
+  bottom: 80%;
+}
+
 
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
