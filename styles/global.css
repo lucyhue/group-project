@@ -187,6 +187,6 @@ $('#myModal').on('shown.bs.modal', function () {
      padding-left: 10px;
    }
 
-   $('#myModal').on('shown.bs.modal', function () {
-     $('#myInput').trigger('focus')
-   }
+.footer-links {
+  color: rgb(0,120,10);
+}
