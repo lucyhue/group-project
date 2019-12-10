@@ -182,7 +182,10 @@ $('#myModal').on('shown.bs.modal', function () {
    .navbar-brand-logo {
      padding-left: 10px;
    }
-
+   .blacktext {
+     color: black;
+   }
+   
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
