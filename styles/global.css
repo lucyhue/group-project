@@ -14,7 +14,12 @@ h2 {
 }
 img {
   display: flex;
+
+  padding: 15px;
+
+
   border-radius: 10px;
+
 }
 a {
   color: rgb(0,0,0)
