@@ -158,9 +158,17 @@ nav.navbar {
   bottom: 80%;
 }
 
+.nav-link {
+  padding: 0px;
+}
 
+.nav-link-shopping {
+  padding-right: 10px;
+}
 
-
+.navbar-brand-logo {
+  padding-left: 10px;
+}
 
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
