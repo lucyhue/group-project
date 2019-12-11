@@ -43,12 +43,14 @@ ul {
   list-style: none;
 }
 button {
-    font-size: 20px;
-    border-width: 1.5px;
+    font-size: 0px;
+    border-width: 1px;
     text-decoration: none;
-    border-style: solid;
-    padding: 10px 20px 10px 20px;
+    border-style: none;
     background-color: white;
+  }
+  .newbuttons {
+    width: 80px;
   }
   .fa {
     padding: 20px;
