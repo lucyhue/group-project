@@ -188,7 +188,12 @@ nav.navbar {
      color: black;
    }
 
+.footer-links {
+  color: rgb(0,120,10);
+}
+
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
    
+
