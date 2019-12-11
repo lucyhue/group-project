@@ -240,6 +240,17 @@ nav.navbar {
 
 .show {display: block;}
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.textareainput {
+  width: 100%;
+  margin: 8px 0;
+}
+]
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
