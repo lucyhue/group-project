@@ -14,12 +14,8 @@ h2 {
 }
 img {
   display: flex;
-
   padding: 15px;
-
-
   border-radius: 10px;
-
 }
 a {
   color: rgb(0,0,0)
@@ -42,10 +38,7 @@ a:hover {
 li {
   margin: 5px;
 }
-a:hover {
-  transition: 0.2s linear;
 
-}
 ul {
   list-style: none;
 }
@@ -195,5 +188,3 @@ nav.navbar {
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
-   
-
