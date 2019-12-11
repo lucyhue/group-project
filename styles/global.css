@@ -137,9 +137,7 @@ nav.navbar {
   padding: 0.1em 0.5em;
 
 }
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-}
+
 .imgswap {
        width: 100%;
        height: 100%;
@@ -189,7 +187,8 @@ $('#myModal').on('shown.bs.modal', function () {
    .blacktext {
      color: black;
    }
-   
+
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
+   
