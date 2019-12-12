@@ -136,6 +136,11 @@ nav.navbar {
   border-radius: 50%;
   padding: 0.1em 0.5em;
 
+.footer-links {}
+  .footer-links {
+    color: rgb(0,120,10);
+  }
+
 }
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
@@ -186,7 +191,3 @@ $('#myModal').on('shown.bs.modal', function () {
    .navbar-brand-logo {
      padding-left: 10px;
    }
-
-.footer-links {
-  color: rgb(0,120,10);
-}
