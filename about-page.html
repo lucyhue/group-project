@@ -6,91 +6,92 @@
     <link rel="stylesheet" type="text/css" href="styles/global.css">
     <link rel="stylesheet" type="text/css" href="styles/about_page.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <a class="navbar-brand navbar-brand-logo" href="./index.html">Breathe</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand navbar-brand-logo" href="./index.html">breathe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="./catalogue-page.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-        PLANTS<span class="sr-only">(current)</span>
-          </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="./catalogue-page.html">Indoor plants</a>
-              <a class="dropdown-item" href="./catalogue-page.html">Potted plants</a>
-              <a class="dropdown-item" href="./catalogue-page.html">Succulents</a>
-            </div>
-          </li>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              POTS
+            <a class="nav-link dropdown-toggle" href="./catalogue-page.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+          plants<span class="sr-only">(current)</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Plain pots</a>
-              <a class="dropdown-item" href="#">Patterned pots</a>
-              <a class="dropdown-item" href="#">Terracotta pots</a>
-            </div>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./catalogue-page.html">indoor plants</a>
+                <a class="dropdown-item" href="./catalogue-page.html">potted plants</a>
+                <a class="dropdown-item" href="./catalogue-page.html">succulents</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                pots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">plain pots</a>
+                <a class="dropdown-item" href="#">patterned pots</a>
+                <a class="dropdown-item" href="#">terracotta pots</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                thoughts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./about-page.html">about us</a>
+                <a class="dropdown-item" href="./about-page.html">blog</a>
+                <a class="dropdown-item" href="./about-page.html">plant care</a>
+              </div>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">sign in</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              THOUGHTS
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="./about-page.html">About us</a>
-              <a class="dropdown-item" href="./about-page.html">Blog</a>
-              <a class="dropdown-item" href="./about-page.html">Plant care</a>
+          </ul>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">search<i class="fa fa-search"></i></button>
+            <div id="myDropdown" class="dropdown-content dropdown-menu dropdown-menu-right">
+              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+              <a href="./about-page.html">about us</a>
+              <a href="./catalogue-page.html">indoor plants</a>
+              <a href="./catalogue-page.html">succulents</a>
+              <a href="./catalogue-page.html">cactus</a>
+              <a href="./catalogue-page.html">spider plant</a>
+              <a href="#support">faqs</a>
+              <a href="./catalogue-page.html">plants and wellbeing</a>
+              <a href="./about-page.html">contact us</a>
+              <a href="#">pots</a>
+              <a href="./about-page.html">thoughts</a>
+              <a href="./index.html">home page</a>
+              <a href="./catalogue-page.html">cheap plants</a>
+              <a href="#">ceramic pots</a>
+              <a href="#">terracotta pots</a>
+              <a href="#">delivery</a>
+              <a href="./catalogue-page.html">catalogue</a>
+              <a href="#">sitemap</a>
             </div>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">SIGN IN</a>
-        </li>
-        </ul>
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Search<i class="fa fa-search"></i></button>
-          <div id="myDropdown" class="dropdown-content dropdown-menu dropdown-menu-right">
-            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-            <a href="./about-page.html">About Us</a>
-            <a href="./catalogue-page.html">Indoor Plants</a>
-            <a href="./catalogue-page.html">Succulents</a>
-            <a href="./catalogue-page.html">Cactus</a>
-            <a href="./catalogue-page.html">Spider Plant</a>
-            <a href="#support">FAQs</a>
-            <a href="./catalogue-page.html">Plants and Wellbeing</a>
-            <a href="./about-page.html">Contact Us</a>
-            <a href="#">Pots</a>
-            <a href="./about-page.html">Thoughts</a>
-            <a href="./index.html">Home page</a>
-            <a href="./catalogue-page.html">Cheap plants</a>
-            <a href="#">Ceramic pots</a>
-            <a href="#">Terracotta pots</a>
-            <a href="#">Delivery</a>
-            <a href="./catalogue-page.html">Catalogue</a>
-            <a href="#">Sitemap</a>
-          </div>
-          </div>
-            <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
-    </div>
-  </nav>
+            </div>
+              <a class="nav-link nav-link-shopping" href="#"><i class="fa fa-shopping-cart"></i></a>
+      </div>
+    </nav>
 
-  <div class="row">
+  <div class="row m-5">
     <div class="col-sm-4">
       <img id="vine_image" src="images/Vine.JPG" alt="Climbing vine">
     </div>
     <div class="col-sm-4">
       <br>
-      <h3>Our Story</h3>
-        <p>
-          Breathe began when founders, Lucy, Kim and Becca were trying to bring a little of the outdoors into their workspaces. To create a sense of calm and boost their oxygen levels!
+      <h3>our story</h3>
+        <p class="text-justify">
+          Breathe began when founders, Lucy, Kim and Becca, were trying to bring a little of the outdoors into their workspaces, to create a sense of calm and boost their oxygen levels!
+        </p>
+        <p class="text-justify">
           Our mission is to aid you to improve your wellbeing with the help of plants.
         </p>
-        <p>
+        <p class="text-justify"><em>
           "Breathe has helped me create a zen worspace that I love" - Charlotte
-        </p>
+        </em></p>
       </div>
       <div class="col-sm-4">
         <p>
@@ -142,19 +143,19 @@
 
     <div class="d-flex justify-content-around" id="upperfooter">
       <h4>
-        <a class="footer-links" href="./about-page.html"> Our Story </a>
+        <a class="footer-links" href="./about-page.html"> our story </a>
       </h4>
       <h4>
-        <a class="footer-links" href="./about-page.html"> Contact Us </a>
+        <a class="footer-links" href="./about-page.html"> contact us </a>
       </h4>
-      <h4>FAQs</h4>
+      <h4>faqs</h4>
     </div>
 
     <div class="footer d-flex">
       <div class="p-2 flex-grow-1 bd-highlight">&#169; HUELUND 2019</div>
-      <div class="p-2 bd-highlight">Sitemap</div>
-      <div class="p-2 bd-highlight">Privacy</div>
-      <div class="p-2 bd-highlight">T&Cs</div>
+      <div class="p-2 bd-highlight">sitemap</div>
+      <div class="p-2 bd-highlight">privacy</div>
+      <div class="p-2 bd-highlight">t&cs</div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
