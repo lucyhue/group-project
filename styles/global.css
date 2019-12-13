@@ -250,7 +250,7 @@ input[type=text] {
   width: 100%;
   margin: 8px 0;
 }
-]
+
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
