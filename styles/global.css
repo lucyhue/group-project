@@ -131,6 +131,11 @@ nav.navbar {
   border-radius: 50%;
   padding: 0.1em 0.5em;
 
+.footer-links {}
+  .footer-links {
+    color: rgb(0,120,10);
+  }
+
 }
 
 .imgswap {
@@ -179,6 +184,7 @@ nav.navbar {
    .navbar-brand-logo {
      padding-left: 10px;
    }
+
    .blacktext {
      color: black;
    }
@@ -254,3 +260,4 @@ input[type=text] {
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
+
