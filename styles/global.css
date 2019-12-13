@@ -242,8 +242,6 @@ nav.navbar {
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
-
 .show {display: block;}
 
 input[type=text] {
