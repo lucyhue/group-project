@@ -196,7 +196,7 @@ nav.navbar {
 .dropbtn {
   background-color: rgb(200,220,200);
   color: black;
-  padding: 16px;
+  padding: 6px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -260,4 +260,3 @@ input[type=text] {
    $('#myModal').on('shown.bs.modal', function () {
      $('#myInput').trigger('focus')
    }
-
