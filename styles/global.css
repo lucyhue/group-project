@@ -169,6 +169,7 @@ nav.navbar {
      font-size: 2em;
      text-align: center;
      bottom: 80%;
+     text-shadow: 2px 2px 8px black;
    }
 
    .nav-link {
