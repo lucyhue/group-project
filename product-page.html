@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="styles/global.css">
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+          <script type="text/javascript" src="scripts/js.js"></script>
     </head>
     <body>
       <nav class="navbar navbar-expand-lg sticky-top">
@@ -145,20 +146,15 @@
                 <div class="col-sm-12 d-flex flex-column">
 
 
-                  <div class="input-group plus-minus-input m-5 width="50%"">
-                    <div class="input-group-button">
-                      <button type="button" data-quantity="minus" data-field="quantity">
-                        <img src="images/Product-Minus.png" class="newbuttons" aria-hidden="true"></img>
-                      </button>
-                    </div>
-                    <input class="input-group-field" type="number" name="quantity" value="0">
-                    <div class="input-group-button">
-                      <button type="button" data-quantity="plus" data-field="quantity">
+                  <div style="margin-bottom:2em;text-align:center;">
 
-                        <img src="images/Product-Plus.png" class="newbuttons" aria-hidden="true"></img>
-                      </button>
-                    </div>
-                  </div>
+    <div class="change_qty minus cursor_hover">&#45;</div>
+
+    <input type="numeric" style="height:22px;width:40px;margin:0 .5em;text-align:center;" value="1">
+
+    <div class="change_qty plus cursor_hover">&#43;</div>
+
+  </div>
 
 
                   <div class="row d-flex justify-content-center">
@@ -273,5 +269,40 @@
     }
   }
   </script>
+  <script>
+  $(function(){
+$(".plus").click(function(e) {
+  e.preventDefault();
+  var $this = $(this);
+  var $input = $this.siblings('input');
+  var value = parseInt($input.val());
+
+  if (value < 30) {
+    value = value + 1;
+  }
+  else {
+    value =30;
+  }
+
+  $input.val(value);
+});
+
+$(".minus").click(function(e) {
+  e.preventDefault();
+  var $this = $(this);
+  var $input = $this.siblings('input');
+  var value = parseInt($input.val());
+
+  if (value > 1) {
+    value = value - 1;
+  }
+  else {
+    value =1;
+  }
+
+  $input.val(value);
+});
+});
+</script>
 </body>
 </html>

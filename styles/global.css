@@ -257,3 +257,20 @@ nav.navbar {
     padding: 0 5px;
     vertical-align: middle;
 }
+
+.change_qty{
+    display:inline-block;
+    font-family: 'Poppins';
+    color:#fff;
+    background:#868e96;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    font-weight:900;
+    line-height:22px;
+    align-items: center;
+}
+.cursor_hover{
+    cursor: hand;
+    cursor: pointer;
+}
