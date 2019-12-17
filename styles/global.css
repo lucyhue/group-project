@@ -257,7 +257,3 @@ nav.navbar {
     padding: 0 5px;
     vertical-align: middle;
 }
-
-   $('#myModal').on('shown.bs.modal', function () {
-     $('#myInput').trigger('focus')
-   }
