@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="styles/global.css">
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-          <script type="text/javascript" src="scripts/js.js"></script>
     </head>
     <body>
       <nav class="navbar navbar-expand-lg sticky-top">
@@ -145,10 +144,10 @@
               <div class="row">
                 <div class="col-sm-12 d-flex flex-column">
 
-<br><br><br>
+                  <br><br><br>
                   <div style="margin-bottom:2em;text-align:center;">
                     <div class="change_qty minus cursor_hover">&#45;</div>
-                    <input type="numeric" style="height:22px;width:40px;margin:0 .5em;text-align:center;" value="1">
+                    <input type="numeric" style="height:22px;width:40px;margin:0 .5em;text-align:center;" value="0">
                     <div class="change_qty plus cursor_hover">&#43;</div>
                   </div>
 
@@ -243,63 +242,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  <script>
-  /* When the user clicks on the button,
-  toggle between hiding and showing the dropdown content */
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-
-  function filterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("myDropdown");
-    a = div.getElementsByTagName("a");
-    for (i = 0; i < a.length; i++) {
-      txtValue = a[i].textContent || a[i].innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        a[i].style.display = "";
-      } else {
-        a[i].style.display = "none";
-      }
-    }
-  }
-  </script>
-  <script>
-  $(function(){
-$(".plus").click(function(e) {
-  e.preventDefault();
-  var $this = $(this);
-  var $input = $this.siblings('input');
-  var value = parseInt($input.val());
-
-  if (value < 30) {
-    value = value + 1;
-  }
-  else {
-    value =30;
-  }
-
-  $input.val(value);
-});
-
-$(".minus").click(function(e) {
-  e.preventDefault();
-  var $this = $(this);
-  var $input = $this.siblings('input');
-  var value = parseInt($input.val());
-
-  if (value > 1) {
-    value = value - 1;
-  }
-  else {
-    value =1;
-  }
-
-  $input.val(value);
-});
-});
-</script>
+  <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>

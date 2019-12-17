@@ -20,7 +20,7 @@ function filterFunction() {
 
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
-}
+});
 
 $(function(){
 $(".plus").click(function(e) {
@@ -45,11 +45,13 @@ $(".minus").click(function(e) {
   var $input = $this.siblings('input');
   var value = parseInt($input.val());
 
-  if (value > 1) {
+  console.log(value);
+
+  if (value > 0) {
     value = value - 1;
   }
   else {
-    value =1;
+    value =0;
   }
 
   $input.val(value);
