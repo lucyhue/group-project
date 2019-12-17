@@ -127,16 +127,6 @@ nav.navbar {
           appearance: none;
 }
 
-.plus-minus-input .input-group-button .circle {
-  border-radius: 20%;
-  padding: 0.1em 0.3em;
-
-.footer-links {}
-  .footer-links {
-    color: rgb(0,120,10);
-  }
-
-}
 
 .imgswap {
        width: 100%;
@@ -157,13 +147,7 @@ nav.navbar {
        display: inline;
    }
 
-   .textcarousel {
-     color: white;
-     font-size: 2em;
-     text-align: center;
-     bottom: 80%;
-     top: 0;
-   }
+
    .textcarousel1 {
      color: white;
      font-size: 2em;
@@ -187,9 +171,7 @@ nav.navbar {
    .blacktext {
      color: black;
    }
-span {
-  color: black;
-}
+
 .footer-links {
   color: rgb(0,120,10);
 }
@@ -218,7 +200,9 @@ span {
   border-bottom: 1px solid #ddd;
 }
 
-#myInput:focus {outline: 3px solid #ddd;}
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
 
 .dropdown {
   position: relative;
@@ -246,12 +230,7 @@ span {
 
 .show {display: block;}
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
+
 .textareainput {
   width: 100%;
   margin: 8px 0;
